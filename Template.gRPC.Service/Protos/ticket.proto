@@ -1,0 +1,30 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Template.gRPC.Service";
+
+import "google/protobuf/empty.proto";
+
+package ticket;
+
+// The banker service definition.
+service TicketService {
+  // Get available ticket count
+  rpc GetAvailableTickets (google.protobuf.Empty) returns (AvailableTicketsResponse);
+  // Buy tickets
+  rpc BuyTickets (BuyTicketsRequest) returns (BuyTicketsResponse);
+}
+
+// The response message containing the available ticket count
+message AvailableTicketsResponse {
+  int32 count = 1;
+}
+
+// The request message to buy tickets
+message BuyTicketsRequest {
+  int32 count = 1;
+}
+
+// The response message to buy tickets
+message BuyTicketsResponse {
+  bool success = 1;
+}

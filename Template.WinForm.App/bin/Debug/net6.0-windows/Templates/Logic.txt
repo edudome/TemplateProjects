@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AutoMapper;
+using Template.Domain.Core;
+using Template.Application.Handlers.###LogicName_Template###s;
+
+namespace Template.Application.Logic.###LogicName_Template###s
+{
+    public class ###LogicName_Template###Logic
+    {
+        private readonly IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
+
+        public ###LogicName_Template###Logic(IMapper mapper, IUnitOfWork unitOfWork)
+        {
+            _mapper = mapper;
+            _unitOfWork = unitOfWork;
+        }
+
+        public async Task<###LogicResult_Template###?> ###LogicMetodo_Template###(###CommandName_Template###Command request)
+        {
+            try
+            {
+                //EntityX db = _mapper.Map<EntityX>(request);
+                //return await _unitOfWork.XXX.AddAsync(db);
+
+                return await Task.FromResult(null);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+    }
+}

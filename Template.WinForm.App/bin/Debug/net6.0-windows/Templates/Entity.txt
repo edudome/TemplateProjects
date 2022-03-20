@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Template.Domain.Core;
+
+namespace Template.Domain.Entities
+{
+    public class ###Entity_Template###: TBase
+    {
+        public int ###Entity_Template###Id { get; set; }
+
+        [NotMapped]
+        public int PrimaryKey { get { return ###Entity_Template###Id; } set { ###Entity_Template###Id = value; } }
+
+###Propiedades_Template###
+
+    }
+}

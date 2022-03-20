@@ -1,0 +1,13 @@
+using AutoMapper;
+using Template.Domain.Entities;
+using Template.Domain.InterfacesRepository;
+using Template.Infrastructure.Context;
+using Template.Infrastructure.Generics;
+
+namespace Infrastructure.Repository
+{
+    public class ###Entity_Template###Repository : BaseRepository<###Entity_Template###>, I###Entity_Template###Repository
+    {
+        public ###Entity_Template###Repository(ApplicationDbContext context, IMapper mapper) : base(context, mapper) { }
+    }
+}

@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Template.gRPC.Service";
+
+package racer;
+
+service RacerService {
+  rpc ReadySetGo (stream RaceMessage) returns (stream RaceMessage);
+}
+
+message RaceMessage {
+  int32 count = 1;
+}

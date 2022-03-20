@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4fa7be76-c5fe-439c-81dd-a6962a4b8e86": {
+      "ProjectGuid": "4fa7be76-c5fe-439c-81dd-a6962a4b8e86",
+      "DisplayName": "Console.Template.App",
+      "ColorIndex": 0
+    },
+    "05c50061-39b9-4fa7-9204-58301149fd65": {
+      "ProjectGuid": "05c50061-39b9-4fa7-9204-58301149fd65",
+      "DisplayName": "WindowsFormsApp1",
+      "ColorIndex": 1
+    },
+    "1e4921b1-29cd-4da8-ad96-92e82ca8aa67": {
+      "ProjectGuid": "1e4921b1-29cd-4da8-ad96-92e82ca8aa67",
+      "DisplayName": "WinFormsApp1",
+      "ColorIndex": 2
+    },
+    "bbbf42f8-0ff5-4e09-a5e0-d3311cee2697": {
+      "ProjectGuid": "bbbf42f8-0ff5-4e09-a5e0-d3311cee2697",
+      "DisplayName": "WinForms",
+      "ColorIndex": 3
+    },
+    "204015a9-2968-4638-86b4-c813cf82d60b": {
+      "ProjectGuid": "204015a9-2968-4638-86b4-c813cf82d60b",
+      "DisplayName": "WinForms.Template.App",
+      "ColorIndex": 4
+    },
+    "de95625a-c089-45f5-bcc4-e7a6cbaca27f": {
+      "ProjectGuid": "de95625a-c089-45f5-bcc4-e7a6cbaca27f",
+      "DisplayName": "WindowsService.Template.SVC",
+      "ColorIndex": 5
+    },
+    "9fa1966c-43f0-4aed-99f0-f4a176b8431a": {
+      "ProjectGuid": "9fa1966c-43f0-4aed-99f0-f4a176b8431a",
+      "DisplayName": "WebApplication.MVC.Template.App",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3f946d0f-4620-4b0c-b65b-410ac88d63cc": {
+      "ProjectGuid": "3f946d0f-4620-4b0c-b65b-410ac88d63cc",
+      "DisplayName": "WebApplication.MVC.Template.App",
+      "ColorIndex": 7
+    },
+    "36bb7fe3-5fe8-4e0a-b5da-1552a501b974": {
+      "ProjectGuid": "36bb7fe3-5fe8-4e0a-b5da-1552a501b974",
+      "DisplayName": "BlazorWebAssembly.Template.App",
+      "ColorIndex": 8
+    },
+    "8f193a11-1455-40f9-902a-8a1625bfc82e": {
+      "ProjectGuid": "8f193a11-1455-40f9-902a-8a1625bfc82e",
+      "DisplayName": "MVC.Template.App",
+      "ColorIndex": 9
+    },
+    "83c7ae72-5687-41f9-aa5b-0d5cf11d8753": {
+      "ProjectGuid": "83c7ae72-5687-41f9-aa5b-0d5cf11d8753",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 10
+    },
+    "e734fc79-331f-45b0-b4ea-9dfbdc743f9c": {
+      "ProjectGuid": "e734fc79-331f-45b0-b4ea-9dfbdc743f9c",
+      "DisplayName": "Example.Template.API",
+      "ColorIndex": 11
+    },
+    "1fab9a77-2b01-4831-9620-2a84949d7bbc": {
+      "ProjectGuid": "1fab9a77-2b01-4831-9620-2a84949d7bbc",
+      "DisplayName": "React.Template.App",
+      "ColorIndex": 12
+    },
+    "d77f996c-aa0c-4914-a8af-415fcb6b6183": {
+      "ProjectGuid": "d77f996c-aa0c-4914-a8af-415fcb6b6183",
+      "DisplayName": "AspNetGrpcService.Template.Svc",
+      "ColorIndex": 13
+    },
+    "836935f8-8d62-4100-b4bb-826f02b4fd44": {
+      "ProjectGuid": "836935f8-8d62-4100-b4bb-826f02b4fd44",
+      "DisplayName": "WCFService1",
+      "ColorIndex": 14
+    },
+    "836ff8a7-d1f2-4630-97cb-47701b34198e": {
+      "ProjectGuid": "836ff8a7-d1f2-4630-97cb-47701b34198e",
+      "DisplayName": "WcfService.Template.Svc",
+      "ColorIndex": 15
+    },
+    "48270f5c-3ba4-46df-ba97-2d9bb345710c": {
+      "ProjectGuid": "48270f5c-3ba4-46df-ba97-2d9bb345710c",
+      "DisplayName": "Example.Template.API",
+      "ColorIndex": 0
+    },
+    "686c9f48-4fdb-4160-a2d4-b4f5555f9f05": {
+      "ProjectGuid": "686c9f48-4fdb-4160-a2d4-b4f5555f9f05",
+      "DisplayName": "Template.Application",
+      "ColorIndex": 1
+    },
+    "2420b40a-1f1b-4661-ad1c-372c1d6e57e8": {
+      "ProjectGuid": "2420b40a-1f1b-4661-ad1c-372c1d6e57e8",
+      "DisplayName": "Template.Domain",
+      "ColorIndex": 2
+    },
+    "c1c14934-6fef-415f-bbe1-45208463abcf": {
+      "ProjectGuid": "c1c14934-6fef-415f-bbe1-45208463abcf",
+      "DisplayName": "Template.Infrastructure",
+      "ColorIndex": 3
+    },
+    "f6118a87-e58b-41b7-adcb-2f68d2c9f84b": {
+      "ProjectGuid": "f6118a87-e58b-41b7-adcb-2f68d2c9f84b",
+      "DisplayName": "z_ApplicationLayers",
+      "ColorIndex": 4
+    },
+    "180d92b6-9935-4c97-8f32-c5c732d3627a": {
+      "ProjectGuid": "180d92b6-9935-4c97-8f32-c5c732d3627a",
+      "DisplayName": "Template.IoC",
+      "ColorIndex": 5
+    },
+    "a49af222-2568-43fa-8d7f-b00b09aeb3da": {
+      "ProjectGuid": "a49af222-2568-43fa-8d7f-b00b09aeb3da",
+      "DisplayName": "MVC.Template.App",
+      "ColorIndex": 6
+    },
+    "3f190435-2f19-4902-9210-0eb3b89ebbcb": {
+      "ProjectGuid": "3f190435-2f19-4902-9210-0eb3b89ebbcb",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 7
+    },
+    "a73f82d9-a093-4532-9dc1-58247f9e12f8": {
+      "ProjectGuid": "a73f82d9-a093-4532-9dc1-58247f9e12f8",
+      "DisplayName": "Template.IoC2",
+      "ColorIndex": 8
+    },
+    "e9aaa334-78e9-4af3-991f-51543da4c260": {
+      "ProjectGuid": "e9aaa334-78e9-4af3-991f-51543da4c260",
+      "DisplayName": "Template.IoC",
+      "ColorIndex": 9
+    },
+    "5f0eae2d-0ee5-45dd-ad62-00f11811a9ce": {
+      "ProjectGuid": "5f0eae2d-0ee5-45dd-ad62-00f11811a9ce",
+      "DisplayName": "Template.Infrastructure",
+      "ColorIndex": 10
+    },
+    "707c1ae1-ceef-4f18-9a0c-e2f8cf1f7b62": {
+      "ProjectGuid": "707c1ae1-ceef-4f18-9a0c-e2f8cf1f7b62",
+      "DisplayName": "Template.Infrastructure",
+      "ColorIndex": 11
+    },
+    "63809297-2216-438f-83e9-0b0869fa7c2a": {
+      "ProjectGuid": "63809297-2216-438f-83e9-0b0869fa7c2a",
+      "DisplayName": "Template.Domain",
+      "ColorIndex": 12
+    },
+    "70c3e530-0b0d-4156-8074-e26f292fab85": {
+      "ProjectGuid": "70c3e530-0b0d-4156-8074-e26f292fab85",
+      "DisplayName": "Template.Domain",
+      "ColorIndex": 13
+    },
+    "a25262b8-3ce2-4de8-8b8e-4feb5b662120": {
+      "ProjectGuid": "a25262b8-3ce2-4de8-8b8e-4feb5b662120",
+      "DisplayName": "Template.Application",
+      "ColorIndex": 14
+    },
+    "40ca20d8-cc3d-4db4-b9b8-58136846e380": {
+      "ProjectGuid": "40ca20d8-cc3d-4db4-b9b8-58136846e380",
+      "DisplayName": "Template.Application",
+      "ColorIndex": 15
+    },
+    "038a4484-24aa-4b96-9ff9-86806f0c82e8": {
+      "ProjectGuid": "038a4484-24aa-4b96-9ff9-86806f0c82e8",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 0
+    },
+    "5965bbaa-d51c-473d-ab2b-d9394c5729e0": {
+      "ProjectGuid": "5965bbaa-d51c-473d-ab2b-d9394c5729e0",
+      "DisplayName": "Template.Authenticate",
+      "ColorIndex": 1
+    },
+    "64cbd6c3-3aea-45e8-b1f8-c39dd871c65a": {
+      "ProjectGuid": "64cbd6c3-3aea-45e8-b1f8-c39dd871c65a",
+      "DisplayName": "Template.xUnitTest",
+      "ColorIndex": 2
+    },
+    "0da8efbf-4f02-4de0-aa6d-f4cc08a58aa9": {
+      "ProjectGuid": "0da8efbf-4f02-4de0-aa6d-f4cc08a58aa9",
+      "DisplayName": "Template.Console.App",
+      "ColorIndex": 3
+    },
+    "696d1368-feca-4155-ab51-20f68c7a54a9": {
+      "ProjectGuid": "696d1368-feca-4155-ab51-20f68c7a54a9",
+      "DisplayName": "Template.Console.Core",
+      "ColorIndex": 4
+    },
+    "aee8fe35-4ff7-4725-8175-cee43be62a38": {
+      "ProjectGuid": "aee8fe35-4ff7-4725-8175-cee43be62a38",
+      "DisplayName": "AspNetGrpcService.Template.Svc",
+      "ColorIndex": 5
+    },
+    "1b199152-a0e3-4cf1-b2b6-d9e99a75ea40": {
+      "ProjectGuid": "1b199152-a0e3-4cf1-b2b6-d9e99a75ea40",
+      "DisplayName": "Template.GrpcService",
+      "ColorIndex": 6
+    },
+    "eed1700c-907c-43c3-9c33-4040a8502b90": {
+      "ProjectGuid": "eed1700c-907c-43c3-9c33-4040a8502b90",
+      "DisplayName": "Template.gRPC.Client",
+      "ColorIndex": 7
+    },
+    "eff04736-72c0-4f05-ba86-950a75793438": {
+      "ProjectGuid": "eff04736-72c0-4f05-ba86-950a75793438",
+      "DisplayName": "Template.WinForm.App",
+      "ColorIndex": 8
+    },
+    "82192425-c528-44f5-9390-747b1cfe3ac1": {
+      "ProjectGuid": "82192425-c528-44f5-9390-747b1cfe3ac1",
+      "DisplayName": "Template.WinService.Svc",
+      "ColorIndex": 9
+    },
+    "914b30ee-7c2d-4eb3-aa72-30bd2b171131": {
+      "ProjectGuid": "914b30ee-7c2d-4eb3-aa72-30bd2b171131",
+      "DisplayName": "Template.WCF.Service",
+      "ColorIndex": 10
+    },
+    "95f54ac1-82b6-43a5-849a-2a4641732100": {
+      "ProjectGuid": "95f54ac1-82b6-43a5-849a-2a4641732100",
+      "DisplayName": "Template.gRPC.Client",
+      "ColorIndex": 11
+    },
+    "0437d5f1-ce24-4a2f-8e4b-a63d28c39ecb": {
+      "ProjectGuid": "0437d5f1-ce24-4a2f-8e4b-a63d28c39ecb",
+      "DisplayName": "Template.gRPC.Service",
+      "ColorIndex": 12
+    },
+    "0d783cc5-d6cd-4668-92dd-3f7fe37137e3": {
+      "ProjectGuid": "0d783cc5-d6cd-4668-92dd-3f7fe37137e3",
+      "DisplayName": "Template.gRPC.Service",
+      "ColorIndex": 13
+    },
+    "2899175e-21a0-43e4-b88d-0b04c18c2170": {
+      "ProjectGuid": "2899175e-21a0-43e4-b88d-0b04c18c2170",
+      "DisplayName": "Template.gRPC.Service",
+      "ColorIndex": 14
+    },
+    "50c1e4e2-f7b1-4f00-bfa3-40aa873bc013": {
+      "ProjectGuid": "50c1e4e2-f7b1-4f00-bfa3-40aa873bc013",
+      "DisplayName": "Template.React.App",
+      "ColorIndex": 15
+    },
+    "38199e8d-79b4-4501-bde0-97756859b428": {
+      "ProjectGuid": "38199e8d-79b4-4501-bde0-97756859b428",
+      "DisplayName": "Prueba.AdminLTE.App",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

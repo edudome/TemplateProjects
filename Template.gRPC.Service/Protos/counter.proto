@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Template.gRPC.Service";
+
+import "google/protobuf/empty.proto";
+
+package counter;
+
+// The counter service definition.
+service CounterService {
+  // Increment count through client stream of multiple counts
+  rpc AccumulateCountAsync (stream CounterRequest) returns (CounterReply);
+  // Countdown with server stream
+  rpc CountdownAsync (google.protobuf.Empty) returns (stream CounterReply);
+  // Set 0 to IncrementingCounter
+  rpc SetEmpyCounterAsync (google.protobuf.Empty) returns (CounterReply);
+}
+
+// The request message containing the count to increment by
+message CounterRequest {
+  int32 count = 1;
+}
+
+// The response message containing the current count
+message CounterReply {
+  int32 count = 1;
+}

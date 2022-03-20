@@ -1,0 +1,10 @@
+using Template.Domain.Core;
+using Template.Domain.Entities;
+
+namespace Template.Domain.InterfacesRepository
+{
+    public interface I###Entity_Template###Repository : IBaseRepository<###Entity_Template###>
+    {
+        // Agrego acá si quiero otras definiciones particulares del ###Entity_Template###Repository
+    }
+}

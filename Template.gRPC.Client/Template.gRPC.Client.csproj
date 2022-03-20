@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.18.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.40.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.40.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\Template.gRPC.Service\Protos\*.proto" GrpcServices="Client">
+      <Link>Protos\blog.proto</Link>
+      <Link>Protos\compressor.proto</Link>
+      <Link>Protos\counter.proto</Link>
+      <Link>Protos\mail.proto</Link>
+      <Link>Protos\racer.proto</Link>
+      <Link>Protos\ticket.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\blog.proto">
+      <Link>Protos\blog.proto</Link>
+    </Protobuf>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\compressor.proto">
+      <Link>Protos\compressor.proto</Link>
+    </Protobuf>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\counter.proto">
+      <Link>Protos\counter.proto</Link>
+    </Protobuf>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\mail.proto">
+      <Link>Protos\mail.proto</Link>
+    </Protobuf>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\racer.proto">
+      <Link>Protos\racer.proto</Link>
+    </Protobuf>
+    <Protobuf Update="..\Template.gRPC.Service\Protos\ticket.proto">
+      <Link>Protos\ticket.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
