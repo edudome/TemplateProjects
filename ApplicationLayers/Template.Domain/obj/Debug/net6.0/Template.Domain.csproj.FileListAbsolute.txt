@@ -1,0 +1,12 @@
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\bin\Debug\net6.0\Template.Domain.deps.json
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\bin\Debug\net6.0\Template.Domain.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\bin\Debug\net6.0\Template.Domain.pdb
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.csproj.AssemblyReference.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.AssemblyInfoInputs.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.AssemblyInfo.cs
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.csproj.CoreCompileInputs.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\refint\Template.Domain.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\Template.Domain.pdb
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain\obj\Debug\net6.0\ref\Template.Domain.dll
