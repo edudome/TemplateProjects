@@ -73,7 +73,7 @@ namespace Template.Application.Handlers.AAAs.Empty
             try
             {
                 int result = await _unitLogic.EmptyLogic.Do(request);
-                return await Task.FromResult(Response.Ok(result, "Sucessfully"));
+                return await Task.FromResult(Response.Ok(result, "All things done."));
             }
             catch (Exception ex)
             {
