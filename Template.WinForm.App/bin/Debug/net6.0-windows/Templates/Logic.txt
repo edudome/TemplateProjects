@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using Template.Domain.Core;
-using Template.Application.Handlers.###LogicName_Template###s;
+using ###LayersName_Template###.Domain.Core;
+using ###LayersName_Template###.Application.Handlers.###LogicName_Template###s;
 
-namespace Template.Application.Logic.###LogicName_Template###s
+namespace ###LayersName_Template###.Application.Logic.###LogicName_Template###s
 {
     public class ###LogicName_Template###Logic
     {

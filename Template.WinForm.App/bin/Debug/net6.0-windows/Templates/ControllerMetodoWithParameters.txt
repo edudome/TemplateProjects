@@ -1,0 +1,5 @@
+	[Http###ControllerVerbo_Template###("###ControllerMetodo_Template###")]
+		public async Task<Response<###LogicResult_Template###>> ###ControllerMetodo_Template###(###CommandPropiedades_Template###)
+		{
+			return await Mediator.Send(new ###CommandName_Template###(###CommandPropiedadesSinTipo_Template###));
+		}

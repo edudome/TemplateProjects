@@ -4,7 +4,7 @@ using Template.Domain.InterfacesRepository;
 using Template.Infrastructure.Context;
 using Template.Infrastructure.Generics;
 
-namespace Infrastructure.Repository
+namespace Template.Infrastructure.Repository
 {
     public class AAARepository : BaseRepository<AAA>, IAAARepository
     {

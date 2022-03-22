@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Infrastructure.Repository;
 using Microsoft.Extensions.Options;
 using Template.Domain.AppSettings;
 using Template.Domain.Core;

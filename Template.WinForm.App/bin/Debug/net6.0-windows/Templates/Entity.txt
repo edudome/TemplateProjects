@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Template.Domain.Core;
+using ###LayersName_Template###.Domain.Core;
 
-namespace Template.Domain.Entities
+namespace ###LayersName_Template###.Domain.Entities
 {
     public class ###Entity_Template###: TBase
     {

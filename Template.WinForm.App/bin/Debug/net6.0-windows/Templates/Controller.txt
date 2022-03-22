@@ -1,0 +1,18 @@
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using ###LayersName_Template###.Application.Handlers.###ControllerName_Template###s;
+using ###LayersName_Template###.Application.Mediator.Responses;
+using ###LayersName_Template###.Application.Models.###ControllerName_Template###s;
+
+namespace ###ApiName_Template###.Controllers
+{
+    [ApiController]
+    [Authorize]
+    [Route("[controller]")]
+    public class ###ControllerName_Template###Controller : ApiControllerBase
+    {
+        public ###ControllerName_Template###Controller(IMediator mediator) : base(mediator) { }
+
+	###Metodo_Template###
+    }
+}

@@ -1,0 +1,17 @@
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\bin\Debug\net6.0-windows\Template.WinForm.App.exe
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\bin\Debug\net6.0-windows\Template.WinForm.App.deps.json
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\bin\Debug\net6.0-windows\Template.WinForm.App.runtimeconfig.json
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\bin\Debug\net6.0-windows\Template.WinForm.App.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\bin\Debug\net6.0-windows\Template.WinForm.App.pdb
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.csproj.AssemblyReference.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.frmMain.resources
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.csproj.GenerateResource.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.AssemblyInfoInputs.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.AssemblyInfo.cs
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.csproj.CoreCompileInputs.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\refint\Template.WinForm.App.dll
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.pdb
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\Template.WinForm.App.genruntimeconfig.cache
+D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Template.WinForm.App\obj\Debug\net6.0-windows\ref\Template.WinForm.App.dll

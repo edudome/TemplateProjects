@@ -7,12 +7,12 @@ using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
-using Template.Application.Logic;
-using Template.Application.Mediator.Responses;
-using Template.Application.Models.Account;
-using Template.Domain.AppSettings;
+using ###LayersName_Template###.Application.Logic;
+using ###LayersName_Template###.Application.Mediator.Responses;
+using ###LayersName_Template###.Application.Models.Account;
+using ###LayersName_Template###.Domain.AppSettings;
 
-namespace Template.Application.Handlers.###ControllerName_Template###s
+namespace ###LayersName_Template###.Application.Handlers.###ControllerName_Template###s
 {
     public class ###CommandName_Template### : IRequestWrapper<###LogicResult_Template###>
     {

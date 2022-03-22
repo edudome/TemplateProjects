@@ -1,7 +1,7 @@
-using Template.Domain.Core;
-using Template.Domain.Entities;
+using ###LayersName_Template###.Domain.Core;
+using ###LayersName_Template###.Domain.Entities;
 
-namespace Template.Domain.InterfacesRepository
+namespace ###LayersName_Template###.Domain.InterfacesRepository
 {
     public interface I###Entity_Template###Repository : IBaseRepository<###Entity_Template###>
     {

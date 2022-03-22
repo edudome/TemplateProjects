@@ -1,10 +1,10 @@
 using AutoMapper;
-using Template.Domain.Entities;
-using Template.Domain.InterfacesRepository;
-using Template.Infrastructure.Context;
-using Template.Infrastructure.Generics;
+using ###LayersName_Template###.Domain.Entities;
+using ###LayersName_Template###.Domain.InterfacesRepository;
+using ###LayersName_Template###.Infrastructure.Context;
+using ###LayersName_Template###.Infrastructure.Generics;
 
-namespace Infrastructure.Repository
+namespace ###LayersName_Template###.Infrastructure.Repository
 {
     public class ###Entity_Template###Repository : BaseRepository<###Entity_Template###>, I###Entity_Template###Repository
     {

@@ -8,7 +8,8 @@ namespace Template.WinForm.App
 {
     public static class Generador
     {
-        private static string AppName = "Template";
+        private static string LayersName = "Template";
+        private static string ApiName = "Example.Template.API";
         private static string PathApi = @"D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\Example.Template.API";
         private static string PathApplication = @"D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Application";
         private static string PathDomain = @"D:\Edu\Empresa\Proyecto Base\Proyectos VS\TemplateProjects\ApplicationLayers\Template.Domain";
@@ -35,7 +36,7 @@ namespace Template.WinForm.App
             //}
             if (!string.IsNullOrEmpty(model.ControllerName))
             {
-                CrearController(model.ControllerName, model.ControllerVerbo, model.ControllerMetodo, model.LogicResult, model.CommandName);
+                CrearController(model.ControllerName, model.ControllerVerbo, model.ControllerMetodo, model.LogicResult, model.CommandName, model.CommandPropiedades);
             }
             //if (!string.IsNullOrEmpty(model.CommandName))
             //{
@@ -43,9 +44,53 @@ namespace Template.WinForm.App
             //}
         }
 
-        private static void CrearController(string controllerName, string controllerVerbo, string controllerMetodo, string logicResult, string commandName)
+        private static void CrearController(string controllerName, string controllerVerbo, string controllerMetodo, string logicResult, string commandName, string commandPropiedades)
         {
+            string controllerMetodoTemplateWithRequest = File.ReadAllText(PathTemplates + @"\ControllerMetodoWithRequest.txt");
+            string controllerMetodoTemplateWithParameters = File.ReadAllText(PathTemplates + @"\ControllerMetodoWithParameters.txt");
+            string controllerMetodoTemplate = string.Empty;
 
+            if (!string.IsNullOrEmpty(controllerName))
+            {
+                controllerMetodoTemplate = controllerVerbo.ToUpper().Equals("GET") ? controllerMetodoTemplateWithParameters : controllerMetodoTemplateWithRequest;
+                string pathController = Path.Combine(PathApi, "Controllers");
+                string pathControllerFile = Path.Combine(pathController, controllerName + "Controller.cs");
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###ControllerName_Template###", controllerName);
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###ControllerMetodo_Template###", controllerMetodo);
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###ControllerVerbo_Template###", controllerVerbo);
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###CommandName_Template###", commandName);
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###LogicResult_Template###", logicResult);
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###CommandPropiedades_Template###", commandPropiedades);
+                string propiedadesResult = string.Empty;
+                if (!string.IsNullOrEmpty(commandPropiedades))
+                {
+                    string[] splitPropiedades = commandPropiedades.Split(',', StringSplitOptions.RemoveEmptyEntries);
+                    foreach (string prop in splitPropiedades)
+                    {
+                        string[] splitProp = prop.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                        string nombre = splitProp[1].ToLower();
+                        propiedadesResult += nombre + ", ";
+                    }
+
+                    if (propiedadesResult.EndsWith(", ")) propiedadesResult = propiedadesResult.Substring(0, propiedadesResult.Length - 2);
+                }
+                controllerMetodoTemplate = controllerMetodoTemplate.Replace("###CommandPropiedadesSinTipo_Template###", propiedadesResult);
+                string controllerTemplate = string.Empty;
+
+                if (File.Exists(pathControllerFile))
+                {
+                    controllerTemplate = File.ReadAllText(pathControllerFile);
+                }
+                else
+                {
+                    controllerTemplate = File.ReadAllText(PathTemplates + @"\Controller.txt");
+                    controllerTemplate = controllerTemplate.Replace("###LayersName_Template###", LayersName);
+                    controllerTemplate = controllerTemplate.Replace("###ApiName_Template###", ApiName);
+                    controllerTemplate = controllerTemplate.Replace("###ControllerName_Template###", controllerName);
+                    controllerTemplate = controllerTemplate.Replace("###Metodo_Template###", controllerMetodoTemplate);
+                    File.WriteAllText(pathControllerFile, controllerTemplate);
+                }
+            }
         }
 
         private static void CrearHandler(string commandName, string commandPropiedades, string logicName, string logicMetodo, string logicParametros, string logicResult, string controllerName)
@@ -92,6 +137,7 @@ namespace Template.WinForm.App
 
                     handlerTemplate = handlerTemplate.Replace("###Constructor_Template###", constructor);
                     handlerTemplate = handlerTemplate.Replace("###Propiedades_Template###", propiedadesResult);
+                    handlerTemplate = handlerTemplate.Replace("###LayersName_Template###", LayersName);
 
                     File.WriteAllText(pathHandlerFile, handlerTemplate);
                 }
@@ -116,6 +162,7 @@ namespace Template.WinForm.App
                     logicTemplate = logicTemplate.Replace("###LogicMetodo_Template###", logicMetodo);
                     logicTemplate = logicTemplate.Replace("###LogicResult_Template###", logicResult);
                     logicTemplate = logicTemplate.Replace("###CommandName_Template###", commandName);
+                    logicTemplate = logicTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathLogicFile, logicTemplate);
 
                     // UnitLogic //
@@ -126,8 +173,8 @@ namespace Template.WinForm.App
                         string textUnitLogic = File.ReadAllText(pathUnitLogic);
                         string posText = "public class UnitLogic";
                         int posTextLength = posText.Length;
-                        string usingLogic = "using " + AppName + ".Application.Logic." + logic + "s;";
-                        string nameSpace = "namespace " + AppName + ".";
+                        string usingLogic = "using " + LayersName + ".Application.Logic." + logic + "s;";
+                        string nameSpace = "namespace " + LayersName + ".";
                         int posNameSpace = textUnitLogic.IndexOf(nameSpace);
                         textUnitLogic = textUnitLogic.Insert(posNameSpace - 2, usingLogic + Environment.NewLine);
 
@@ -188,6 +235,7 @@ namespace Template.WinForm.App
                     }
                     modelTemplate = modelTemplate.Replace("###Entity_Template###", nombreEntity);
                     modelTemplate = modelTemplate.Replace("###Propiedades_Template###", propiedadesResult);
+                    modelTemplate = modelTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathEntityFile, modelTemplate);
                 }
 
@@ -199,9 +247,11 @@ namespace Template.WinForm.App
                     string iRepositoryFile = Path.Combine(PathTemplates + @"\IRepository.txt");
                     string repositoryTemplate = File.ReadAllText(repositoryFile);
                     repositoryTemplate = repositoryTemplate.Replace("###Entity_Template###", nombreEntity);
+                    repositoryTemplate = repositoryTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathRepository, repositoryTemplate);
                     repositoryTemplate = File.ReadAllText(iRepositoryFile);
                     repositoryTemplate = repositoryTemplate.Replace("###Entity_Template###", nombreEntity);
+                    repositoryTemplate = repositoryTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathIRepository, repositoryTemplate);
                 }
             }
@@ -240,6 +290,7 @@ namespace Template.WinForm.App
                     }
                     modelTemplate = modelTemplate.Replace("###EntityResult_Template###", nombreEntityResult);
                     modelTemplate = modelTemplate.Replace("###Propiedades_Template###", propiedadesResult);
+                    modelTemplate = modelTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathEntityResultFile, modelTemplate);
 
                     // Mapping Profile //
@@ -302,6 +353,7 @@ namespace Template.WinForm.App
                     }
                     modelTemplate = modelTemplate.Replace("###Model_Template###", nombreModelo);
                     modelTemplate = modelTemplate.Replace("###Propiedades_Template###", propiedadesResult);
+                    modelTemplate = modelTemplate.Replace("###LayersName_Template###", LayersName);
                     File.WriteAllText(pathModeloFile, modelTemplate);
 
                     // Mapping Profile //
@@ -315,8 +367,8 @@ namespace Template.WinForm.App
                         string textMappingProfile = File.ReadAllText(pathMappingProfile);
                         string posText = ".ReverseMap();";
                         int posTextLength = posText.Length;
-                        string usingModel = "using " + AppName + ".Application.Models." + nombreModelo + "s;";
-                        string nameSpace = "namespace " + AppName + ".";
+                        string usingModel = "using " + LayersName + ".Application.Models." + nombreModelo + "s;";
+                        string nameSpace = "namespace " + LayersName + ".";
 
                         int posNameSpace = textMappingProfile.IndexOf(nameSpace);
                         textMappingProfile = textMappingProfile.Insert(posNameSpace - 2, usingModel + Environment.NewLine);

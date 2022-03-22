@@ -126,10 +126,12 @@
                     if (text.StartsWith("Get"))
                     {
                         txtLogicResult.Text = modeloName + "Model";
+                        comboBoxVerbo.SelectedIndex = 0;
                     }
                     else
                     {
                         txtLogicResult.Text = "int";
+                        comboBoxVerbo.SelectedIndex = 1;
                     }
                     txtLogicMetodo.Text = logicMetodo;
                     txtEntity.Text = modeloName;

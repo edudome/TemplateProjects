@@ -84,8 +84,8 @@
             this.comboBoxVerbo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxVerbo.FormattingEnabled = true;
             this.comboBoxVerbo.Items.AddRange(new object[] {
-            "GET",
-            "POST"});
+            "Get",
+            "Post"});
             this.comboBoxVerbo.Location = new System.Drawing.Point(787, 20);
             this.comboBoxVerbo.Name = "comboBoxVerbo";
             this.comboBoxVerbo.Size = new System.Drawing.Size(137, 28);
