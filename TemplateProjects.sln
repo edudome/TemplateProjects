@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{690C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consoles", "Consoles", "{08880695-E05B-4BC2-B507-91691A09C089}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{BBBF42F8-0FF5-4E09-A5E0-D3311CEE2697}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeneradorCodigo", "GeneradorCodigo", "{BBBF42F8-0FF5-4E09-A5E0-D3311CEE2697}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinServices", "WinServices", "{348B89E3-184B-4FA8-BAFB-929311106402}"
 EndProject
@@ -36,9 +36,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installers", "Installers", "{906D5FF2-D6FF-44FC-AD62-D849B9A01C2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAUI", "MAUI", "{8C2BDD57-0BAC-4F39-9F30-18EB0EB91B7D}"
-	ProjectSection(SolutionItems) = preProject
-		README = README
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "z_ApplicationLayers", "z_ApplicationLayers", "{F6118A87-E58B-41B7-ADCB-2F68D2C9F84B}"
 EndProject
