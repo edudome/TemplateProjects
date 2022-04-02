@@ -36,6 +36,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installers", "Installers", "{906D5FF2-D6FF-44FC-AD62-D849B9A01C2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAUI", "MAUI", "{8C2BDD57-0BAC-4F39-9F30-18EB0EB91B7D}"
+	ProjectSection(SolutionItems) = preProject
+		README = README
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "z_ApplicationLayers", "z_ApplicationLayers", "{F6118A87-E58B-41B7-ADCB-2F68D2C9F84B}"
 EndProject
