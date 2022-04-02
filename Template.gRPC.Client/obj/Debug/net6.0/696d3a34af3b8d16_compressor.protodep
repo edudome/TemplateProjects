@@ -1,0 +1,2 @@
+obj\Debug\net6.0/Compressor.cs \
+obj\Debug\net6.0/CompressorGrpc.cs: ../Template.gRPC.Service/Protos/compressor.proto

@@ -54,3 +54,12 @@
 /ApplicationLayers/Template.Infrastructure/obj/Debug/net6.0/Template.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /ApplicationLayers/Template.Infrastructure/obj/Debug/net6.0/Template.Infrastructure.pdb
 /ApplicationLayers/Template.Infrastructure/obj/Debug/net6.0/Template.Infrastructure.genruntimeconfig.cache
+/BlazorWebAssembly.Template.App/obj/Debug/net6.0/BlazorWebAssembly.Template.App.AssemblyInfo.cs
+/BlazorWebAssembly.Template.App/obj/Debug/net6.0/BlazorWebAssembly.Template.App.GeneratedMSBuildEditorConfig.editorconfig
+/BlazorWebAssembly.Template.App/obj/Debug/net6.0/BlazorWebAssembly.Template.App.csproj.AssemblyReference.cache
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.AssemblyInfo.cs
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.AssemblyInfoInputs.cache
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.csproj.AssemblyReference.cache
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.GeneratedMSBuildEditorConfig.editorconfig
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.RazorAssemblyInfo.cache
+/MVC.Template.App/obj/Debug/net6.0/MVC.Template.App.RazorAssemblyInfo.cs

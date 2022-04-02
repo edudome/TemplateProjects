@@ -1,0 +1,2 @@
+obj\Debug\net6.0/Blog.cs \
+obj\Debug\net6.0/BlogGrpc.cs: ../Template.gRPC.Service/Protos/blog.proto

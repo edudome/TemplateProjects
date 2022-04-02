@@ -1,0 +1,3 @@
+obj\Debug\net6.0/Counter.cs \
+obj\Debug\net6.0/CounterGrpc.cs: C:/Users/edudo/.nuget/packages/grpc.tools/2.40.0/build/native/include/google/protobuf/empty.proto\
+ ../Template.gRPC.Service/Protos/counter.proto

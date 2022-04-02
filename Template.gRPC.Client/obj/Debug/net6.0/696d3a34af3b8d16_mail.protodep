@@ -1,0 +1,2 @@
+obj\Debug\net6.0/Mail.cs \
+obj\Debug\net6.0/MailGrpc.cs: ../Template.gRPC.Service/Protos/mail.proto
