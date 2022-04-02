@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e6W7MDtcN3bwpnxEzbKQ+PNNiHeTeExAXACMBNjCa0y/ESyGpB7wrLKFWo95Iv0Sx+BNgBN2m2VwUw2NqzTQRA==",
+  "dgSpecHash": "eXws9r2IsG1u0XN6mXT6p9YWSS2fjMnybkbXvxW0tfl1924CBQyGSibas5HutNsh10Lmsz8+JKfeBfIB1f5DKw==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Infrastructure\\Template.Infrastructure.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Infrastructure\\Template.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

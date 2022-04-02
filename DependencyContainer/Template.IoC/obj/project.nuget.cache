@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K/URC7SyfmvSYRGPGcfXD6rqLyEPEWTyHASCvLQCmxi0DvgAisNXsFFf/R+q9ScYWB8inzwsaRpebs0RIQRdZg==",
+  "dgSpecHash": "EyzOgX11YoerVE8jogKjahkywZNQ/MrQlXY277Uh+4vEQ8RGj5hDZTxWlG9sD4NEjFl/bNap3INb6IXCLDfVBQ==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\DependencyContainer\\Template.IoC\\Template.IoC.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\DependencyContainer\\Template.IoC\\Template.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

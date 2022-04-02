@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lxDbB+OxxmU0JXtYOVYxyY2gex9pOkHLBvy97LaeKhnzCGv3OFj6ZMbbN/KxgAI5KFoNDk5vq2kvXjkG0iP6qQ==",
+  "dgSpecHash": "79Sbrn3OHwN2JgkzeQ6nPjtpkveqEKN4Nt6/uECQa3aQEiRsz8Snvghbcgem+Yw4KdRPW1vzwr65l100Y5KsMA==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Template.gRPC.Service\\Template.gRPC.Service.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Template.gRPC.Service\\Template.gRPC.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\grpc.aspnetcore\\2.40.0\\grpc.aspnetcore.2.40.0.nupkg.sha512",

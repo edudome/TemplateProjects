@@ -5,7 +5,6 @@ using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,10 +33,6 @@ namespace Template.IoC
 
             //////////////////////
 
-            // For Identity
-            //builder.Services.AddIdentity<AppUser, IdentityRole>()
-            //.AddEntityFrameworkStores<ApplicationDbContext>()
-            //.AddDefaultTokenProviders();
             // Adding Authentication
             builder.Services.AddAuthentication(options =>
             {

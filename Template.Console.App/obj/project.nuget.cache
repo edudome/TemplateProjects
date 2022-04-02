@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TG2ko3/RdVDfUjXFIzVce0jBYBr7uHSdBUUvxCd+rx5UOXS4d0ihRpEwTTAmxNWrYC3L53evm2Mj2ZsbhNJHXQ==",
+  "dgSpecHash": "64MxjdDAl2IfICfOrdlUky2bmDNJCmnjLnJCui/PN8fGBjI6uHaM6heKV/VnUGg2B/MHEgF0D4k4CkXqQd0JLQ==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Template.Console.App\\Template.Console.App.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Template.Console.App\\Template.Console.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yx0jSuljU+B66djuhE0YQN2L4rA4xioz3AgrBsRGnteQJuAkfcGHuytdWlnPM6P/wHtC5dX5teHCind+4q+c8w==",
+  "dgSpecHash": "hfQGr3XhcMlEUoRPStBpsmYAMTKSoZGtSifrOM7OhKAAE2VdOFqjhR1ZuB+vOk8sGsptk070nQr2xgWuxfapRA==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Example.Template.API\\Example.Template.API.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Example.Template.API\\Example.Template.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

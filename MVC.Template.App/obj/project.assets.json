@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\MVC.Template.App.csproj",
+      "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\MVC.Template.App.csproj",
       "projectName": "MVC.Template.App",
-      "projectPath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\MVC.Template.App.csproj",
+      "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\MVC.Template.App.csproj",
       "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
-      "outputPath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\obj\\",
+      "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\MVC.Template.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

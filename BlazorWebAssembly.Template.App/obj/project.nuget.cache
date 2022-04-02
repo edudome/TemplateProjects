@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bKTQBJoVUPrV8tLG0MdHp+bj4knwcXlXnOi7pC7ROiHdVt1Lyku8cGp6WVXcb7kwNdZPHCbCjTjj3kt3QeacUQ==",
+  "dgSpecHash": "xonCkev/S/yzLJrjRL5eqhPI7rEfZCwkXvh8JBdiml8x3Vm8YzH8fn1K4S3OXAqle04wG1b2ob9Hc54t58nQCg==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\BlazorWebAssembly.Template.App\\BlazorWebAssembly.Template.App.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\BlazorWebAssembly.Template.App\\BlazorWebAssembly.Template.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FIlRVtRR3Lki8qBNL27jqHJcrr5Jn9bC5hm6dOeHtVVMHpvJ6ho55MYcD+HdXq2VV8S6s05V4hTYBvbp0E40bQ==",
+  "dgSpecHash": "ZHaxd9I/UNl9j4PRB4dHmTWU+pBgCE+dgfiLkVKoMfW61UIodKmHI+Eb+h1SXfUCReK+YK4MS19hLfBBWEgocQ==",
   "success": true,
-  "projectFilePath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Application\\Template.Application.csproj",
+  "projectFilePath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Application\\Template.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edudo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\edudo\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",

@@ -554,11 +554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\Template.gRPC.Client.csproj",
+      "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\Template.gRPC.Client.csproj",
       "projectName": "Template.gRPC.Client",
-      "projectPath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\Template.gRPC.Client.csproj",
+      "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\Template.gRPC.Client.csproj",
       "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
-      "outputPath": "D:\\Edu\\Empresa\\Proyecto Base\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\obj\\",
+      "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\Template.gRPC.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
