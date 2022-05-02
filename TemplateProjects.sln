@@ -81,8 +81,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.gRPC.Client", "Tem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.gRPC.Service", "Template.gRPC.Service\Template.gRPC.Service.csproj", "{2899175E-21A0-43E4-B88D-0B04C18C2170}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{C5E19BAC-1C14-475C-803B-5D0CD54ED69C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

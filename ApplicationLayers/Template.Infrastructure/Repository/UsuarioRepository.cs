@@ -9,5 +9,7 @@ namespace Template.Infrastructure.Repository
     public class UsuarioRepository : BaseRepository<Usuario> , IUsuarioRepository
     {
         public UsuarioRepository(ApplicationDbContext context, IMapper mapper) : base(context, mapper) { }
+
+        // el resto de metodos particulares del usuario repository
     }
 }
