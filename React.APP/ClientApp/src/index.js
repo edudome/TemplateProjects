@@ -24,3 +24,12 @@ serviceWorkerRegistration.unregister();
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Add this in node_modules/react-dom/index.js
+window.React1 = require('react');
+
+
+//// TO CHECK IF THERE ARE MORE THAN ONE REACT VERSIONS
+//require('react-dom');
+//window.React2 = require('react');
+//console.log(window.React1 === window.React2);
