@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import React, { Component } from 'react';
 import { Header } from './Header';
 import { Formulario } from './Formulario';
 import { ListaRecetas } from './ListaRecetas';
@@ -9,18 +9,18 @@ import { ModalProvider } from './context/ModalContext';
 
 export function Bebidas() {
     return (
-      <CategoriasProvider>
-        <RecetasProvider>
-          <ModalProvider>
-              <Header />
-              <div className="container mt-5">
-                  <div className="row">
-                      <Formulario />
-                  </div>
-                  <ListaRecetas />
-              </div>
-          </ModalProvider>
-        </RecetasProvider>
-      </CategoriasProvider>
-  );
+        <CategoriasProvider>
+            <RecetasProvider>
+                <ModalProvider>
+                    <Header />
+                    <div className="container mt-5">
+                        <div className="row">
+                            {<Formulario />}
+                        </div>
+                        <ListaRecetas />
+                    </div>
+                </ModalProvider>
+            </RecetasProvider>
+        </CategoriasProvider>
+    );
 }

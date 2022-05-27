@@ -2,7 +2,7 @@
 import { Receta } from './Receta';
 import { RecetasContext } from './context/RecetasContext';
 
-export const ListaRecetas = () => {
+export function ListaRecetas() {
 
     // extraer las recetas
     const { recetas } = useContext(RecetasContext);

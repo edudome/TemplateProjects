@@ -2,7 +2,7 @@
 import { CategoriasContext } from './context/CategoriasContext';
 import { RecetasContext } from './context/RecetasContext';
 
-export const Formulario = () => {
+export function Formulario() {
 
     const [busqueda, guardarBusqueda] = useState({
         nombre: '',
@@ -29,20 +29,11 @@ export const Formulario = () => {
                 guardarConsultar(true);
             }}
         >
-            <fieldset className="text-center">
-                <legend>Busca bebidas por Categoría o Ingrediente</legend>
+            <fieldset>
+                <legend>Busca bebidas por Categoría</legend>
             </fieldset>
 
             <div className="row mt-4">
-                <div className="col-md-4">
-                    <input
-                        name="nombre"
-                        className="form-control"
-                        type="text"
-                        placeholder="Buscar por Ingrediente"
-                        onChange={obtenerDatosReceta}
-                    />
-                </div>
                 <div className="col-md-4">
                     <select
                         className="form-control"

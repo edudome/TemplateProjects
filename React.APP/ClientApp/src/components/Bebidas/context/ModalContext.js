@@ -1,5 +1,5 @@
 ﻿import React, { createContext, useEffect, useState } from 'react';
-import axios from 'axios';
+import { AxiosGetCall } from '../../Axios';
 
 // crear el context
 export const ModalContext = createContext();
@@ -17,9 +17,9 @@ export function ModalProvider(props) {
 
             const url = `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${idreceta}`;
 
-            const resultado = await axios.get(url);
+            const resultado = await AxiosGetCall(url);
 
-            guardarReceta(resultado.data.drinks[0]);
+            guardarReceta(resultado.drinks[0]);
         }
         obtenerReceta();
     }, [idreceta]);

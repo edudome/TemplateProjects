@@ -1,5 +1,5 @@
 ﻿import React, { createContext, useState, useEffect } from 'react';
-import axios from 'axios';
+import { AxiosGetCall } from '../../Axios';
 
 // Crear el Context
 export const CategoriasContext = createContext();
@@ -13,11 +13,12 @@ export function CategoriasProvider(props) {
     // ejecutar el llamado a la api
     useEffect(() => {
         const obtenerCategorias = async () => {
+
             const url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list';
 
-            const categorias = await axios.get(url);
+            const categorias = await AxiosGetCall(url);
 
-            guardarCategorias(categorias.data.drinks);
+            guardarCategorias(categorias.drinks);
         }
         obtenerCategorias();
     }, []);
