@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Application\\Template.Application.csproj",
         "projectName": "Template.Application",
         "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Application\\Template.Application.csproj",
-        "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -114,14 +114,14 @@
         "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Domain\\Template.Domain.csproj",
         "projectName": "Template.Domain",
         "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Domain\\Template.Domain.csproj",
-        "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -162,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -172,14 +172,14 @@
         "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Infrastructure\\Template.Infrastructure.csproj",
         "projectName": "Template.Infrastructure",
         "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Infrastructure\\Template.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\ApplicationLayers\\Template.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -254,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -264,14 +264,14 @@
         "projectUniqueName": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\DependencyContainer\\Template.IoC\\Template.IoC.csproj",
         "projectName": "Template.IoC",
         "projectPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\DependencyContainer\\Template.IoC\\Template.IoC.csproj",
-        "packagesPath": "C:\\Users\\edudo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\Edu\\Empresa\\Proyectos VS\\TemplateProjects\\DependencyContainer\\Template.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edudo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -336,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
